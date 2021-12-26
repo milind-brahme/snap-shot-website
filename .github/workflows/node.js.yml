@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -31,5 +31,8 @@ jobs:
     - run: npm run build --if-present
     - run: node runsnap.js
     - run: git add example.png
+    - run:  git config  user.email "milind.brahme@outlook.com"
+    - run:  git config user.name "milind-brahme"
     - run: git commit -m "Image refereshed"
+
     
