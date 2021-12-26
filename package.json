@@ -1,0 +1,24 @@
+{
+  "name": "snap-shot-website",
+  "version": "1.0.0",
+  "description": "NodeJs to take a snapshot of the website page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milind-brahme/snap-shot-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milind-brahme/snap-shot-website/issues"
+  },
+  "homepage": "https://github.com/milind-brahme/snap-shot-website#readme",
+  "dependencies": {
+    "jest-image-snapshot": "^4.5.1",
+    "puppeteer": "^13.0.1",
+    "puppeteer-core": "^13.0.1"
+  }
+}
