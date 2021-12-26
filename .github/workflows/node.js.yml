@@ -5,8 +5,8 @@ name: Node.js CI
 
 on:
   push:
-    paths :
-      - 'scribble.txt'
+    paths-ignore :
+      - 'example.png'
   pull_request:
     branches: [ main ]
 
